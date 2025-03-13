@@ -1,0 +1,41 @@
+.menu {
+    padding: 40px 20px;
+  }
+  
+  .menu__title {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 30px;
+    color: #282828;
+  }
+  
+  .menu__error {
+    text-align: center;
+    color: #e76f51;
+    font-size: 18px;
+    margin: 30px 0;
+  }
+  
+  .menu__no-results {
+    text-align: center;
+    font-size: 18px;
+    margin: 30px 0;
+    color: #555;
+  }
+  
+  .menu__show-more {
+    display: block;
+    margin: 30px auto 0;
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu__show-more:hover {
+    background-color: #264653;
+  }

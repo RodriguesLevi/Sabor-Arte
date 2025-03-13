@@ -1,0 +1,49 @@
+.menu-item {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .menu-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .menu-item__image {
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    background-color: #f8f8f8;
+    background-image: url('https://via.placeholder.com/300x180?text=Imagem+não+disponível');
+  }
+  
+  .menu-item__content {
+    padding: 16px;
+  }
+  
+  .menu-item__title {
+    margin: 0 0 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .menu-item__restaurant {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .menu-item__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu-item__price {
+    font-weight: 700;
+    font-size: 16px;
+    color: #e76f51;
+  }

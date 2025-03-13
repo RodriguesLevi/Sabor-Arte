@@ -1,0 +1,56 @@
+.main {
+    flex: 1;
+  }
+  
+  .hero {
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../images/restaurante.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .hero__content {
+    padding: 20px;
+  }
+  
+  .hero__title {
+    font-size: 48px;
+    margin: 0 0 20px;
+    font-weight: 900;
+  }
+  
+  .hero__subtitle {
+    font-size: 24px;
+    margin: 0 0 30px;
+    font-weight: 500;
+  }
+  
+  .hero__button {
+    display: inline-block;
+    background-color: #e76f51;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero__button:hover {
+    background-color: #f4a261;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero__title {
+      font-size: 36px;
+    }
+    
+    .hero__subtitle {
+      font-size: 18px;
+    }
+  }

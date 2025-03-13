@@ -1,0 +1,100 @@
+.special-offers {
+    padding: 60px 20px;
+  }
+  
+  .special-offers__title {
+    font-size: 36px;
+    text-align: center;
+    margin: 0 0 40px;
+    color: #282828;
+  }
+  
+  .special-offers__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .special-offers__error {
+    text-align: center;
+    color: #e76f51;
+    font-size: 18px;
+    margin: 30px 0;
+  }
+  
+  .special-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .special-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .special-card__image {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .special-card__content {
+    padding: 20px;
+  }
+  
+  .special-card__title {
+    margin: 0 0 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .special-card__description {
+    margin: 0 0 20px;
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .special-card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .special-card__price {
+    font-weight: 700;
+    font-size: 20px;
+    color: #e76f51;
+  }
+  
+  .special-card__button {
+    background-color: #2a9d8f;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .special-card__button:hover {
+    background-color: #264653;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .special-card__footer {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    
+    .special-card__button {
+      width: 100%;
+    }
+  }
